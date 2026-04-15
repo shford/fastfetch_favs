@@ -16,7 +16,3 @@ The script works. It's super small so I doubt it'll need updates.
 ## Disclaimers
 
 I am not affiliated with Fastfetch. I do not own any of the associated logos. This is just a small convenience script.
-
-## Meta
-
-Distributed under the MIT license.
