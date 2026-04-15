@@ -1,0 +1,17 @@
+# add printout
+print_fastfetch_favs(){
+	# read array of logos
+	readarray -t fastfetch_logos <<< $(cat $HOME/Desktop/fastfetch_favs/logos.txt | cut -d '"' -f 2)
+
+	# select rand option
+	logos_len=${#fastfetch_logos[*]}
+	logo_index=$(($RANDOM % $logos_len))
+	logo=${fastfetch_logos[$logo_index]}
+
+	# print it
+	echo "Logo: $logo"
+	echo
+	fastfetch -l "$logo"
+}
+
+print_fastfetch_favs
