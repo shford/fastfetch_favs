@@ -1,5 +1,5 @@
 # Fastfetch Setup
-> A really short snippet to print my favorite fastfetch logos each time a new terminal window or tab is opened.
+> A really short script to print my favorite fastfetch logos each time a new terminal window or tab is opened.
 
 ## Installation
 
@@ -11,7 +11,7 @@ Copy/paste from bashrc_snippet.txt into then bottom of your ~/.bashrc file.
 
 ## Release History
 
-The script works. It's super small so I doubt it'll need updates.
+The script works. It's super small so I doubt it'll need updates. Create an issue on Github if you want to get in touch for anyting.
 
 ## Disclaimers
 
